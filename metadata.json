@@ -1,0 +1,6 @@
+{
+  "name": "Braces Color Studio",
+  "description": "BraceMood ค้นหาสียางที่ใช่ ในสไตล์ของคุณ มากกว่าการสุ่มสี ช่วยค้นหาคู่สีที่เหมาะกับ Mood สไตล์ เสื้อผ้า และโอกาส พร้อมระบบจำลองรอยยิ้ม สมาชิก และ Dashboard",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

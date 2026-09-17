@@ -1,0 +1,112 @@
+{
+  "version": "2.4.0",
+  "updated_at": "2026-09-11T08:00:00.000Z",
+  "repository": "https://github.com/bracemood/bracemood-data",
+  "source": "github-repository-bundle",
+  "colors": [
+    {
+      "id": "baby-pink",
+      "name": "ชมพูพาสเทล",
+      "english_name": "Baby Pink",
+      "hex": "#FFB7D5",
+      "tone": "pastel",
+      "mood": ["cheerful", "sweet", "cute"],
+      "style": ["cute", "sweet", "minimal"],
+      "description": "ชมพูนมละมุน ยอดฮิตตลอดกาล ให้ลุคหวานน่ารักฟรุ้งฟริ้ง"
+    },
+    {
+      "id": "bubblegum-pink",
+      "name": "ชมพูบับเบิ้ลกัม",
+      "english_name": "Bubblegum Pink",
+      "hex": "#FF69B4",
+      "tone": "vibrant",
+      "mood": ["cheerful", "cute"],
+      "style": ["cute", "bright"],
+      "description": "ชมพูสดใส ชวนให้นึกถึงลูกอม มีเสน่ห์สดใสสุดๆ"
+    },
+    {
+      "id": "lavender",
+      "name": "ม่วงลาเวนเดอร์",
+      "english_name": "Lavender Bliss",
+      "hex": "#C8A2C8",
+      "tone": "pastel",
+      "mood": ["sweet", "calm", "mysterious"],
+      "style": ["sweet", "minimal", "cute"],
+      "description": "ม่วงอ่อนนุ่มนวล ชวนฝัน ช่วยขับรอยยิ้มให้อ่อนหวาน"
+    },
+    {
+      "id": "sky-blue",
+      "name": "ฟ้าพาสเทล",
+      "english_name": "Sky Blue",
+      "hex": "#87CEEB",
+      "tone": "pastel",
+      "mood": ["cheerful", "calm", "cute"],
+      "style": ["cute", "minimal", "bright"],
+      "description": "ฟ้าสดใสเหมือนท้องฟ้าฤดูร้อน ฟันดูขาวสะอาดตา"
+    },
+    {
+      "id": "mint-green",
+      "name": "เขียวมิ้นต์",
+      "english_name": "Fresh Mint",
+      "hex": "#98FF98",
+      "tone": "pastel",
+      "mood": ["calm", "cheerful", "sweet"],
+      "style": ["minimal", "cute", "sweet"],
+      "description": "เขียวสดชื่น สบายตา ยอดฮิตสายมินิมอลและธรรมชาติ"
+    },
+    {
+      "id": "navy-blue",
+      "name": "น้ำเงินเข้ม",
+      "english_name": "Midnight Navy",
+      "hex": "#1E3A8A",
+      "tone": "deep",
+      "mood": ["cool", "mysterious", "standout"],
+      "style": ["cool", "dark", "minimal"],
+      "description": "สียอดฮิตตลอดกาล ขับผิวหน้าและฟันให้ดูขาวสว่างขึ้นอย่างเห็นได้ชัด"
+    }
+  ],
+  "color_pairs": [
+    {
+      "id": "pair-cotton-candy",
+      "name": "Pink + Blue (คอตตอนแคนดี้)",
+      "color_1": "#FF69B4",
+      "color_2": "#87CEEB",
+      "compatibility_score": 98,
+      "popularity": 99,
+      "tags": ["หวานละมุน", "สดใสป๊อป", "ยอดนิยมอันดับ 1"],
+      "description": "คู่สีระดับตำนานของวงการจัดฟัน หวานซ่อนเปรี้ยวเหมือนสายไหมในสวนสนุก"
+    },
+    {
+      "id": "pair-twilight",
+      "name": "Purple + Blue (ทไวไลท์ดรีม)",
+      "color_1": "#C8A2C8",
+      "color_2": "#87CEEB",
+      "compatibility_score": 95,
+      "popularity": 92,
+      "tags": ["ชวนฝัน", "ขับฟันขาว", "สบายตา"],
+      "description": "โทนสีท้องฟ้าพลบค่ำ ละมุนใจ มีเสน่ห์ลึกลับกำลังดี"
+    }
+  ],
+  "challenges": [
+    {
+      "id": "ch-01",
+      "title": "นักสุ่มสียางมือใหม่",
+      "description": "กดสุ่มสีสียางจัดฟันครบ 3 ครั้ง",
+      "requirement": "สุ่มสีอย่างน้อย 3 ครั้ง",
+      "reward": "เหรียญตรา Rookie Spinner 🎲",
+      "badge_id": "badge-rookie-spinner",
+      "target_count": 3,
+      "type": "random"
+    },
+    {
+      "id": "ch-02",
+      "title": "นักสะสมคู่สีในฝัน",
+      "description": "กดบันทึกคู่สีที่ชอบ (Favorite) ครบ 2 คู่",
+      "requirement": "บันทึกสีที่ชอบ 2 รายการขึ้นไป",
+      "reward": "เหรียญตรา Sweet Collector 💖",
+      "badge_id": "badge-sweet-collector",
+      "target_count": 2,
+      "type": "favorite"
+    }
+  ]
+}
